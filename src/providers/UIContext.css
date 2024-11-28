@@ -1,0 +1,25 @@
+.light-background{
+    background-color: white;
+}
+.light-text{
+    color: black;
+}
+.dark-background{
+    background-color: rgb(32, 32, 32);
+}
+.dark-text{
+    color: rgb(220, 220, 220);
+}
+.light-icon{
+    padding: 30px;
+    font-size: 20px;
+    align-items: center;
+    transition: 0.5s;
+}
+.dark-icon{
+    color: rgb(220, 220, 220) ;
+    padding: 30px;
+    font-size: 20px;
+    align-items: center;
+    transition: 0.5s;
+}
