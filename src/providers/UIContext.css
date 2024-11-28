@@ -23,3 +23,25 @@
     align-items: center;
     transition: 0.5s;
 }
+.dark-icon:hover{
+    color: #AEBD38;
+}
+.light-icon:hover{
+    color: #AEBD38;
+}
+.light-button{
+    color: #E6E6E6;
+    background-color: #505160;
+    border:  none;
+    border-radius: 30px;
+    padding: 4px 30px;
+    font-size: 18px;
+}
+.dark-button{
+    color: #262626;
+    background-color: #ADAEBF;
+    border:  none;
+    border-radius: 30px;
+    padding: 4px 30px;
+    font-size: 18px;
+}

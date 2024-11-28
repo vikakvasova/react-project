@@ -6,17 +6,6 @@
 .header-right{
     display: flex;
 }
-.my-icon{
-    padding: 30px;
-    font-size: 20px;
-    align-items: center;
-    transition: 0.5s;
-}
-
-.my-icon:hover{
-    color: #AEBD38;
-}
-
 
 .header-midl{
     display: flex;
