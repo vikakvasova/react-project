@@ -3,6 +3,7 @@ import React, { useContext } from 'react';
 import './MainPage.css';
 import Header from '../../components/Header/Header';
 import { myContext } from '../../providers/UIContext';
+import Footer from '../../components/Footer/Footer';
 
 
 function MainPage() {
@@ -12,6 +13,7 @@ function MainPage() {
         <>
         <div className={`all-posts ${color}-background`}>
             <Header></Header>
+            <Footer></Footer>
         </div>
             
         </>

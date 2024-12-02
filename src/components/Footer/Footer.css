@@ -1,0 +1,18 @@
+.footer-container{
+    width: 1120px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #DADADA;
+    align-items: center;
+    margin: auto;
+}
+.footer-left{
+    padding: 33px 0px 33px;
+}
+.footer-right{
+    padding: 33px 0px 33px;
+}
+.footer-text{
+    color: #8D8E97;
+    font-size: 16px;
+}
