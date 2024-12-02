@@ -1,6 +1,6 @@
 import { myContext } from '../../providers/UIContext';
 import Burger from '../Burger/Burger';
-import SingIn from '../SingIn/SingIn';
+import Submit from '../Submit/Submit';
 import './Header.css';
 import { useContext, useState } from 'react';
 
@@ -37,13 +37,12 @@ function Header () {
             </div>
             <button onClick={() => setIsPersonOpen(!isPersonOpen)}>
             <i className={`fa-solid fa-ghost ${color}-icon`}></i>
-            {isPersonOpen ? <SingIn></SingIn> : null}
             </button>
             
             </div>
             </header>
             {isDropDownOpen ? <Burger></Burger> : null}
-            
+            {isPersonOpen ? <Submit></Submit> : null}
         </>
     );
 }
