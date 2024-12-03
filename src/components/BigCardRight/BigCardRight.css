@@ -1,9 +1,10 @@
 .dig-card-container{
-    display: flex;
+    display: grid;
     justify-content:center;
     /* max-width: 820px; */
     align-items: center;
     margin: 0px auto 70px ;
+    grid-template-columns: 50% 50%;
 
 }
 .img-container-right{

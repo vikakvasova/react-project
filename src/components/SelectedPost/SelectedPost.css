@@ -1,0 +1,24 @@
+.post-container{
+    display: flex;
+    margin: auto;
+    
+}
+.Left-side{
+    margin: 0px 100px 100px 0px;
+}
+.post-block{
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.post-title{
+    font-size: 32px ;
+    margin-bottom: 30px;
+}
+.post-text{
+    margin-bottom: 40px;
+}
+.price{
+    margin-bottom: 40px;
+}

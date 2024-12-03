@@ -1,0 +1,16 @@
+.light-tab{
+    color:  rgb(32, 32, 32);
+    margin: 0px 30px;
+    transition: 0.4s;
+}
+.light-tab:hover{
+    color:  #AEBD38;
+}
+.dark-tab{
+    color:  rgb(183, 182, 182);
+    margin: 0px 30px;
+    transition: 0.4s;
+}
+.dark-tab:hover{
+    color:  #AEBD38;
+}

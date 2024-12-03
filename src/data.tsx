@@ -13,6 +13,12 @@ export type TBook = {
     image: string,
     url?: string
 }
+export interface ITab {
+    content : any,
+    tabState: boolean,
+    changeActive: () => void
+}
+
 
 export const books: TBook[]=[
 

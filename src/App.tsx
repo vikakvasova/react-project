@@ -7,6 +7,8 @@ import UIContext from './providers/UIContext';
 import MainPage from './pages/MainPage/MainPage';
 import { Provider } from 'react-redux';
 import store from './store/store';
+import SelectedPage from './pages/SelectedPage/SelectedPage';
+import { books } from './data';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -19,6 +21,7 @@ function App() {
       <Provider store={store}>
         <UIContext>
           <MainPage></MainPage>
+          <SelectedPage></SelectedPage>
         </UIContext>
       </Provider>
     </React.StrictMode>
