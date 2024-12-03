@@ -9,6 +9,7 @@ import { Provider } from 'react-redux';
 import store from './store/store';
 import SelectedPage from './pages/SelectedPage/SelectedPage';
 import { books } from './data';
+import SearchPage from './pages/SearchPage/SearchPage';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -22,6 +23,7 @@ function App() {
         <UIContext>
           <MainPage></MainPage>
           <SelectedPage></SelectedPage>
+          <SearchPage books={books}></SearchPage>
         </UIContext>
       </Provider>
     </React.StrictMode>
